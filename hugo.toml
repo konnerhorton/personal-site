@@ -1,0 +1,68 @@
+baseURL = "https://konnerhorton.com/"
+languageCode = "en-us"
+title = "Konner Horton"
+theme = "PaperMod"
+
+[params]
+author = "Konner Horton"
+description = "konnerhorton@gmail.com"
+images = ["/images/opengraph.jpg"]
+defaultTheme = "dark"
+showReadingTime = true
+showShareButtons = false
+showPostNavLinks = true
+showBreadCrumbs = true
+showCodeCopyButtons = true
+showToc = true
+TocOpen = false
+
+  [params.homeInfoParams]
+  Title = "Welcome"
+  Content = """
+  Depending on the day, I work as a construction manager, geologist, or civil engineer
+  in the tunnel construction industry. Some of the civil engineering world is (to me)
+  indistinguishable from magic (like a 70 m deep slurry wall). Other parts of the work
+  are pure drudgery (like trying to figure out the relevant information in 10 gigabytes
+  of .pdf's). But I try to take the good with the bad in hopes that one day I'll look
+  back on being a part of some pretty cool infrastructure projects.  
+  <br>
+  When I am not at work, I am likely reading (usually either non-fiction, or
+  science-fiction), playing BJJ at [Superfly](https://superflybjj.com/), or cooking
+  (and eating).
+  """
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/konnerhorton"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:konnerhorton@gmail.com"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/konnerhorton"
+
+[menu]
+  [[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "resume"
+  name = "Resume"
+  url = "/resume/"
+  weight = 20
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+  style = "dracula"
+  lineNos = false
+
+  [markup.goldmark.renderer]
+  unsafe = true

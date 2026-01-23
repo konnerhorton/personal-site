@@ -1,0 +1,43 @@
+:root {
+    /* Softer dark - easier on eyes */
+    --theme: rgb(32, 32, 38);           /* softer charcoal background */
+    --entry: rgb(40, 40, 48);           /* slightly lifted card bg */
+    --primary: rgb(210, 205, 215);      /* headings - softer off-white */
+    --secondary: rgb(145, 140, 155);    /* meta text - muted lavender-gray */
+    --tertiary: rgb(60, 58, 70);        /* subtle borders */
+    --content: rgb(185, 180, 195);      /* body text - gentler gray */
+    --border: rgb(50, 48, 60);          /* border - hint of purple */
+    --code-block-bg: rgb(38, 37, 44);
+    --code-bg: rgb(45, 43, 54);
+    color-scheme: dark;
+}
+
+:root[data-theme="dark"] {
+    --theme: rgb(32, 32, 38);
+    --entry: rgb(40, 40, 48);
+    --primary: rgb(210, 205, 215);
+    --secondary: rgb(145, 140, 155);
+    --tertiary: rgb(60, 58, 70);
+    --content: rgb(185, 180, 195);
+    --border: rgb(50, 48, 60);
+    --code-block-bg: rgb(38, 37, 44);
+    --code-bg: rgb(45, 43, 54);
+}
+
+/* Purple accent for links */
+a {
+    color: rgb(167, 139, 250);  /* soft purple */
+}
+
+a:hover {
+    color: rgb(196, 176, 255);  /* lighter on hover */
+}
+
+/* Purple accent on post titles */
+.entry-header h2 a {
+    color: rgb(167, 139, 250);
+}
+
+.entry-header h2 a:hover {
+    color: rgb(196, 176, 255);
+}
