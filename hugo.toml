@@ -28,7 +28,14 @@ TocOpen = false
   <br>
   When I am not at work, I am likely reading (usually either non-fiction, or
   science-fiction), playing BJJ at [Superfly](https://superflybjj.com/), or cooking
-  (and eating).
+  (and eating).  
+  <br>
+  I've recently by trying to build some more useful things, here are some of them:  
+  <br>
+  [ox](https://konnerhorton.github.io/ox/): A plaintext training log / tracker inspired
+  by [beancount](https://beancount.github.io/docs/)  
+  [geology-joins](https://konnerhorton.github.io/geology-joins/): A WASM app to help
+  perform interval joints between two tables.
   """
 
   [[params.socialIcons]]
