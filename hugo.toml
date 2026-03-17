@@ -34,8 +34,8 @@ TocOpen = false
   <br>
   [ox](https://konnerhorton.github.io/ox/): A plaintext training log / tracker inspired
   by [beancount](https://beancount.github.io/docs/)  
-  [geology-joins](https://konnerhorton.github.io/geology-joins/): A WASM app to help
-  perform interval joints between two tables.
+  [darpi](https://github.com/konnerhorton/darpi/): A prototype for a collaborative,
+  auditable risk register with analyses built in.
   """
 
   [[params.socialIcons]]
